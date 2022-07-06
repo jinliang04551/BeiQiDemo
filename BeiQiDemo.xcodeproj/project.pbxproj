@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C01F96EB2872C7A800D924B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C01F96EA2872C7A800D924B7 /* AppDelegate.m */; };
+		C01F96F12872C7A800D924B7 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01F96F02872C7A800D924B7 /* MainViewController.m */; };
+		C01F96F62872C7AA00D924B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01F96F52872C7AA00D924B7 /* Assets.xcassets */; };
+		C01F96F92872C7AA00D924B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01F96F72872C7AA00D924B7 /* LaunchScreen.storyboard */; };
+		C01F96FC2872C7AA00D924B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C01F96FB2872C7AA00D924B7 /* main.m */; };
+		C01F97062872C7AA00D924B7 /* BeiQiDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C01F97052872C7AA00D924B7 /* BeiQiDemoTests.m */; };
+		C01F97102872C7AB00D924B7 /* BeiQiDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C01F970F2872C7AB00D924B7 /* BeiQiDemoUITests.m */; };
+		C01F97122872C7AB00D924B7 /* BeiQiDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C01F97112872C7AB00D924B7 /* BeiQiDemoUITestsLaunchTests.m */; };
+		C063485D28753167008E55D3 /* EMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C063485B28753167008E55D3 /* EMLoginViewController.m */; };
+		FEC92BB430ADF303C8CE236B /* Pods_BeiQiDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D580B8545800C61900B110 /* Pods_BeiQiDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C01F97022872C7AA00D924B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C01F96DE2872C7A800D924B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C01F96E52872C7A800D924B7;
+			remoteInfo = BeiQiDemo;
+		};
+		C01F970C2872C7AB00D924B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C01F96DE2872C7A800D924B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C01F96E52872C7A800D924B7;
+			remoteInfo = BeiQiDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06DE3D548156D005FD099D74 /* Pods-BeiQiDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeiQiDemo.release.xcconfig"; path = "Target Support Files/Pods-BeiQiDemo/Pods-BeiQiDemo.release.xcconfig"; sourceTree = "<group>"; };
+		19D580B8545800C61900B110 /* Pods_BeiQiDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeiQiDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C5F6405B7336FF6F07A3384 /* Pods-BeiQiDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeiQiDemo.debug.xcconfig"; path = "Target Support Files/Pods-BeiQiDemo/Pods-BeiQiDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C01F96E62872C7A800D924B7 /* BeiQiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeiQiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01F96E92872C7A800D924B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C01F96EA2872C7A800D924B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C01F96EF2872C7A800D924B7 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C01F96F02872C7A800D924B7 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C01F96F52872C7AA00D924B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C01F96F82872C7AA00D924B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C01F96FA2872C7AA00D924B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C01F96FB2872C7AA00D924B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C01F97012872C7AA00D924B7 /* BeiQiDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeiQiDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01F97052872C7AA00D924B7 /* BeiQiDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeiQiDemoTests.m; sourceTree = "<group>"; };
+		C01F970B2872C7AB00D924B7 /* BeiQiDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeiQiDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01F970F2872C7AB00D924B7 /* BeiQiDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeiQiDemoUITests.m; sourceTree = "<group>"; };
+		C01F97112872C7AB00D924B7 /* BeiQiDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeiQiDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		C01F97222872D7AB00D924B7 /* BeiQiDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BeiQiDemo-Prefix.pch"; sourceTree = "<group>"; };
+		C063485B28753167008E55D3 /* EMLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMLoginViewController.m; sourceTree = "<group>"; };
+		C063485C28753167008E55D3 /* EMLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMLoginViewController.h; sourceTree = "<group>"; };
+		C0D0ABF92872E3EF00E4D036 /* EaseCallKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EaseCallKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D0ABFD2872E3F300E4D036 /* EaseIMKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EaseIMKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D0AC002872E3F800E4D036 /* HyphenateChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HyphenateChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C01F96E32872C7A800D924B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC92BB430ADF303C8CE236B /* Pods_BeiQiDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01F96FE2872C7AA00D924B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01F97082872C7AB00D924B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A448CCF97FE948B8374EF2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0D0AC002872E3F800E4D036 /* HyphenateChat.framework */,
+				C0D0ABFD2872E3F300E4D036 /* EaseIMKit.framework */,
+				C0D0ABF92872E3EF00E4D036 /* EaseCallKit.framework */,
+				19D580B8545800C61900B110 /* Pods_BeiQiDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C01F96DD2872C7A800D924B7 = {
+			isa = PBXGroup;
+			children = (
+				C01F96E82872C7A800D924B7 /* BeiQiDemo */,
+				C01F97042872C7AA00D924B7 /* BeiQiDemoTests */,
+				C01F970E2872C7AB00D924B7 /* BeiQiDemoUITests */,
+				C01F96E72872C7A800D924B7 /* Products */,
+				F1C6766A98C551AFA68CCA05 /* Pods */,
+				0A448CCF97FE948B8374EF2E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C01F96E72872C7A800D924B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C01F96E62872C7A800D924B7 /* BeiQiDemo.app */,
+				C01F97012872C7AA00D924B7 /* BeiQiDemoTests.xctest */,
+				C01F970B2872C7AB00D924B7 /* BeiQiDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C01F96E82872C7A800D924B7 /* BeiQiDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C01F96E92872C7A800D924B7 /* AppDelegate.h */,
+				C01F96EA2872C7A800D924B7 /* AppDelegate.m */,
+				C01F96EF2872C7A800D924B7 /* MainViewController.h */,
+				C01F96F02872C7A800D924B7 /* MainViewController.m */,
+				C063485C28753167008E55D3 /* EMLoginViewController.h */,
+				C063485B28753167008E55D3 /* EMLoginViewController.m */,
+				C0501A792873E957007EC3DD /* Class */,
+				C01F96F52872C7AA00D924B7 /* Assets.xcassets */,
+				C01F96F72872C7AA00D924B7 /* LaunchScreen.storyboard */,
+				C01F96FA2872C7AA00D924B7 /* Info.plist */,
+				C01F96FB2872C7AA00D924B7 /* main.m */,
+				C01F97222872D7AB00D924B7 /* BeiQiDemo-Prefix.pch */,
+			);
+			path = BeiQiDemo;
+			sourceTree = "<group>";
+		};
+		C01F97042872C7AA00D924B7 /* BeiQiDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C01F97052872C7AA00D924B7 /* BeiQiDemoTests.m */,
+			);
+			path = BeiQiDemoTests;
+			sourceTree = "<group>";
+		};
+		C01F970E2872C7AB00D924B7 /* BeiQiDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C01F970F2872C7AB00D924B7 /* BeiQiDemoUITests.m */,
+				C01F97112872C7AB00D924B7 /* BeiQiDemoUITestsLaunchTests.m */,
+			);
+			path = BeiQiDemoUITests;
+			sourceTree = "<group>";
+		};
+		C0501A792873E957007EC3DD /* Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		F1C6766A98C551AFA68CCA05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C5F6405B7336FF6F07A3384 /* Pods-BeiQiDemo.debug.xcconfig */,
+				06DE3D548156D005FD099D74 /* Pods-BeiQiDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C01F96E52872C7A800D924B7 /* BeiQiDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01F97152872C7AB00D924B7 /* Build configuration list for PBXNativeTarget "BeiQiDemo" */;
+			buildPhases = (
+				A3E3FD758E19B6534F18B78D /* [CP] Check Pods Manifest.lock */,
+				C01F96E22872C7A800D924B7 /* Sources */,
+				C01F96E32872C7A800D924B7 /* Frameworks */,
+				C01F96E42872C7A800D924B7 /* Resources */,
+				AED2DE30513F23DABF8F2708 /* [CP] Embed Pods Frameworks */,
+				901F2A63D1D66CAB83B55ED5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeiQiDemo;
+			productName = BeiQiDemo;
+			productReference = C01F96E62872C7A800D924B7 /* BeiQiDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C01F97002872C7AA00D924B7 /* BeiQiDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01F97182872C7AB00D924B7 /* Build configuration list for PBXNativeTarget "BeiQiDemoTests" */;
+			buildPhases = (
+				C01F96FD2872C7AA00D924B7 /* Sources */,
+				C01F96FE2872C7AA00D924B7 /* Frameworks */,
+				C01F96FF2872C7AA00D924B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C01F97032872C7AA00D924B7 /* PBXTargetDependency */,
+			);
+			name = BeiQiDemoTests;
+			productName = BeiQiDemoTests;
+			productReference = C01F97012872C7AA00D924B7 /* BeiQiDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C01F970A2872C7AB00D924B7 /* BeiQiDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01F971B2872C7AB00D924B7 /* Build configuration list for PBXNativeTarget "BeiQiDemoUITests" */;
+			buildPhases = (
+				C01F97072872C7AB00D924B7 /* Sources */,
+				C01F97082872C7AB00D924B7 /* Frameworks */,
+				C01F97092872C7AB00D924B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C01F970D2872C7AB00D924B7 /* PBXTargetDependency */,
+			);
+			name = BeiQiDemoUITests;
+			productName = BeiQiDemoUITests;
+			productReference = C01F970B2872C7AB00D924B7 /* BeiQiDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C01F96DE2872C7A800D924B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C01F96E52872C7A800D924B7 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					C01F97002872C7AA00D924B7 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C01F96E52872C7A800D924B7;
+					};
+					C01F970A2872C7AB00D924B7 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C01F96E52872C7A800D924B7;
+					};
+				};
+			};
+			buildConfigurationList = C01F96E12872C7A800D924B7 /* Build configuration list for PBXProject "BeiQiDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C01F96DD2872C7A800D924B7;
+			productRefGroup = C01F96E72872C7A800D924B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C01F96E52872C7A800D924B7 /* BeiQiDemo */,
+				C01F97002872C7AA00D924B7 /* BeiQiDemoTests */,
+				C01F970A2872C7AB00D924B7 /* BeiQiDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C01F96E42872C7A800D924B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01F96F92872C7AA00D924B7 /* LaunchScreen.storyboard in Resources */,
+				C01F96F62872C7AA00D924B7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01F96FF2872C7AA00D924B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01F97092872C7AB00D924B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		901F2A63D1D66CAB83B55ED5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeiQiDemo/Pods-BeiQiDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeiQiDemo/Pods-BeiQiDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeiQiDemo/Pods-BeiQiDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3E3FD758E19B6534F18B78D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeiQiDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AED2DE30513F23DABF8F2708 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeiQiDemo/Pods-BeiQiDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeiQiDemo/Pods-BeiQiDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeiQiDemo/Pods-BeiQiDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C01F96E22872C7A800D924B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01F96F12872C7A800D924B7 /* MainViewController.m in Sources */,
+				C01F96EB2872C7A800D924B7 /* AppDelegate.m in Sources */,
+				C063485D28753167008E55D3 /* EMLoginViewController.m in Sources */,
+				C01F96FC2872C7AA00D924B7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01F96FD2872C7AA00D924B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01F97062872C7AA00D924B7 /* BeiQiDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01F97072872C7AB00D924B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01F97122872C7AB00D924B7 /* BeiQiDemoUITestsLaunchTests.m in Sources */,
+				C01F97102872C7AB00D924B7 /* BeiQiDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C01F97032872C7AA00D924B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C01F96E52872C7A800D924B7 /* BeiQiDemo */;
+			targetProxy = C01F97022872C7AA00D924B7 /* PBXContainerItemProxy */;
+		};
+		C01F970D2872C7AB00D924B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C01F96E52872C7A800D924B7 /* BeiQiDemo */;
+			targetProxy = C01F970C2872C7AB00D924B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C01F96F72872C7AA00D924B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C01F96F82872C7AA00D924B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01F97132872C7AB00D924B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01F97142872C7AB00D924B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01F97162872C7AB00D924B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C5F6405B7336FF6F07A3384 /* Pods-BeiQiDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 499WYUV8Q2;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "/Users/liu001/Desktop/BeiQi_IMKit/BeiQiDemo/BeiQiDemo/BeiQiDemo-Prefix.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeiQiDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.easemob.BeiQiDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C01F97172872C7AB00D924B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06DE3D548156D005FD099D74 /* Pods-BeiQiDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 499WYUV8Q2;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "/Users/liu001/Desktop/BeiQi_IMKit/BeiQiDemo/BeiQiDemo/BeiQiDemo-Prefix.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeiQiDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.easemob.BeiQiDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C01F97192872C7AB00D924B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 499WYUV8Q2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.easemob.BeiQiDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeiQiDemo.app/BeiQiDemo";
+			};
+			name = Debug;
+		};
+		C01F971A2872C7AB00D924B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 499WYUV8Q2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.easemob.BeiQiDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeiQiDemo.app/BeiQiDemo";
+			};
+			name = Release;
+		};
+		C01F971C2872C7AB00D924B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 499WYUV8Q2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.easemob.BeiQiDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeiQiDemo;
+			};
+			name = Debug;
+		};
+		C01F971D2872C7AB00D924B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 499WYUV8Q2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.easemob.BeiQiDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeiQiDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01F96E12872C7A800D924B7 /* Build configuration list for PBXProject "BeiQiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01F97132872C7AB00D924B7 /* Debug */,
+				C01F97142872C7AB00D924B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01F97152872C7AB00D924B7 /* Build configuration list for PBXNativeTarget "BeiQiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01F97162872C7AB00D924B7 /* Debug */,
+				C01F97172872C7AB00D924B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01F97182872C7AB00D924B7 /* Build configuration list for PBXNativeTarget "BeiQiDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01F97192872C7AB00D924B7 /* Debug */,
+				C01F971A2872C7AB00D924B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01F971B2872C7AB00D924B7 /* Build configuration list for PBXNativeTarget "BeiQiDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01F971C2872C7AB00D924B7 /* Debug */,
+				C01F971D2872C7AB00D924B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C01F96DE2872C7A800D924B7 /* Project object */;
+}

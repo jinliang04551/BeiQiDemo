@@ -1,0 +1,73 @@
+PODS:
+  - AgoraRtcEngine_iOS (3.6.1.2)
+  - Bugly (2.5.91)
+  - EaseCallKit (3.9.1):
+    - AgoraRtcEngine_iOS (= 3.6.1.2)
+    - HyphenateChat (>= 3.9.0)
+    - Masonry
+    - SDWebImage
+  - EaseIMKit (3.9.4):
+    - AgoraRtcEngine_iOS (= 3.6.1.2)
+    - Bugly
+    - EaseCallKit (= 3.9.1)
+    - EMTranslate
+    - EMVoiceConvert (= 0.1.0)
+    - FMDB
+    - HyphenateChat (= 3.9.4)
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - SDWebImage
+  - EMTranslate (0.1.1)
+  - EMVoiceConvert (0.1.0)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - HyphenateChat (3.9.4)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.7.5)
+  - SDWebImage (5.13.0):
+    - SDWebImage/Core (= 5.13.0)
+  - SDWebImage/Core (5.13.0)
+
+DEPENDENCIES:
+  - Bugly
+  - EaseIMKit (from `../easeui_ios`)
+  - EMTranslate
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AgoraRtcEngine_iOS
+    - Bugly
+    - EaseCallKit
+    - EMTranslate
+    - EMVoiceConvert
+    - FMDB
+    - HyphenateChat
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  EaseIMKit:
+    :path: "../easeui_ios"
+
+SPEC CHECKSUMS:
+  AgoraRtcEngine_iOS: 510e5e3c4d4d92a0d49ab02a8e08b5217e974677
+  Bugly: afe841bba2ea6de6d432a3c125240a5e75949c55
+  EaseCallKit: da26e2575bd72fea44b7c8bdf59b2848a2100fc7
+  EaseIMKit: fd2ef5035da23b622db217f3736e988a8e1a1483
+  EMTranslate: b83aed21221307c37be30bc210f7c84c24e375f3
+  EMVoiceConvert: 32a0eaada94d93c151a5abd53ee174cd4e63b01f
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  HyphenateChat: 0780235d9e8e607cdf1af45b2fc47b52933c1361
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  SDWebImage: 0327043dbb9533e75f2eff8445b3df0f2ceca6ac
+
+PODFILE CHECKSUM: 8011248bb9351a551158aa75e12447ee730af207
+
+COCOAPODS: 1.11.2
